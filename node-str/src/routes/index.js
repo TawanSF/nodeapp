@@ -5,7 +5,8 @@ const router = express.Router();
 
 router.get('/', (req, res, next) => {
     res.status(200).send({
-        title: "Getnet API em Node.js",
+        title: "Desenvolvido em Node.js",
+        dev: "Tawan Silva",
         version: "1.0.0"
     });
 });
